@@ -1,0 +1,512 @@
+plot(sbm)
+# let us represent blocks graphically
+par(mfrow = c(1, 1), mar = c(0, 0, 0, 0))
+# in summary
+plot(sbm)
+# let us represent blocks graphically
+par(mfrow = c(1, 1), mar = c(0.3, 0.3, 0.3, 0.3))
+# in summary
+plot(sbm)
+# let us represent blocks graphically
+par(mfrow = c(1, 1), mar = c(1,1,1, 1))
+# in summary
+plot(sbm)
+# let us represent blocks graphically
+par(mfrow = c(1, 1), mar = c(1.5,1.5,1.5, 1.5))
+# in summary
+plot(sbm)
+# in summary
+dev.new()
+par(mfrow = c(1, 1), mar = c(1.5,1.5,1.5, 1.5))
+plot(sbm)
+par(mfrow = c(1, 1), mar = c(2,2,2, 2))
+plot(sbm)
+plot(sbm$method)
+plot(sbm$map)
+plot(sbm$edges)
+plot(sbm$directed)
+plot(sbm)
+par(mfrow = c(1, 1), mar = c(3,3,3, 3))
+plot(sbm)
+par( mar = c(3,3,3, 3))
+plot(sbm)
+attr <- read.csv("C:/Users/chiar/Desktop/Progetto Londra/Nuova cartella/LONDON_GANG.txt")
+View(attr)
+# how are nodes classified?
+bl = apply(out$Taus, 2, which.max)
+bl
+table(bl, attr$Birthplace)
+attr <- read.csv("C:/Users/chiar/Desktop/Progetto Londra/Nuova cartella/LONDON_GANG.txt")
+#--Specify layout for 2 plots (1 for science category legend)
+layout(matrix(1:2, 2, 1, byrow=TRUE), heights=c(1, 0.4))
+#--Since the X & Y data are factors, "plot" produces a "spineplot()"
+par(las=1)    # Orient all axis labels horizontally
+par(mar=c(5, 4, 4, 2.2) + 0.1)    # Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita", ylab="Gruppi")
+#--Plot nothing at all, to allow legend to be added:
+par(mar=c(0, 1, 0, 1)) # Reduce plot margins
+plot.new()
+legend(x="topright", cex=0.7, c("Luoghi di nascita",
+"1: Africa dell'ovest",
+"2: Caraibi",
+"3: UK",
+"4: Africa dell'est"))
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest,
+2: Caraibi,
+3: UK,
+4: Africa dell'est", ylab="Gruppi")
+layout(matrix(1:2, 2, 1, byrow=TRUE), heights=c(1, 0.4))
+#--Since the X & Y data are factors, "plot" produces a "spineplot()"
+par(las=1)    # Orient all axis labels horizontally
+par(mar=c(5, 4, 4, 2.2) + 0.1)    # Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest,
+2: Caraibi,
+3: UK,
+4: Africa dell'est", ylab="Gruppi")
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est", ylab="Gruppi")
+par(las=1)    # Orient all axis labels horizontally
+par(mar=c(5, 4, 4, 2.2) + 0.1)    # Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est", ylab="Gruppi")
+dev.new()
+par(las=1)    # Orient all axis labels horizontally
+par(mar=c(5, 4, 4, 2.2) + 0.1)    # Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est", ylab="Gruppi")
+dev.new()
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: Meno di 18 anni,2: 18 anni,
+3: 19 anni4: 20 anni,5: dai 21 ai 23 anni,6: più di 23 anni)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: Meno di 18 anni,2: 18 anni,
+3: 19 anni4: 20 anni,5: dai 21 ai 23 anni,6: più di 23 anni)", ylab="Gruppi")
+attach(attr)
+######
+#Preparo i gruppi
+gage=1
+gage[Age==18]=2
+gage[Age==19]=3
+gage[Age==20]=4
+gage[Age>20 & Age<24]=5
+gage[Age>23]=6
+gage[is.na(gage)]=1
+garr=1
+garr[Arrests>5 & Arrests<12]=2
+garr[Arrests>11 & Arrests<17]=3
+garr[Arrests>16]=4
+garr[is.na(garr)]=1
+gconv=0
+gconv[Convictions==1]=1
+gconv[Convictions==2]=2
+gconv[Convictions==3]=3
+gconv[Convictions==4]=4
+gconv[Convictions>4 & Convictions<9]=5
+gconv[Convictions==9]=6
+gconv[Convictions>9]=7
+gconv[is.na(gconv)]=0
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: Meno di 18 anni,2: 18 anni,
+3: 19 anni4: 20 anni,5: dai 21 ai 23 anni,6: più di 23 anni)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: Meno di 18 anni,2: 18 anni, 3: 19 anni4: 20 anni,5: dai 21 ai 23 anni,6: più di 23 anni)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: Meno di 18 anni,2: 18 anni, 3: 19 anni4: 20 anni,5: dai 21 ai 23 anni,6: più di 23 anni)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: < 18 anni,2: 18 anni, 3: 19 anni4: 20 anni,5: >21 e <23 anni,6: >23 anni)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: < 18 ,2: 18 , 3: 19 ,4: 20 ,5: >21 e <23 ,6: >23 )", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Età(1: < 18 ,2: 18 , 3: 19 ,4: 20 ,5: >21 e <23 ,6: >23 )", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Età", ylab="Gruppi")
+#--Specify layout for 2 plots (1 for science category legend)
+layout(matrix(1:2, 2, 1, byrow=TRUE), heights=c(1, 0.4))
+#--Since the X & Y data are factors, "plot" produces a "spineplot()"
+dev.new()
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Età(1: < 18 ,2: 18 , 3: 19 ,4: 20 ,5: >21 e <23 ,6: >23 )", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Età(1: < 18 ,2: 18 , 3: 19 ,4: 20 ,5: >21 e <23 ,6: >23 )", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(gconv) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di #condanne( 0: Nessuna , 1: una, 2: due, 3: tre, 4:quattro, 5: da 5 a 8, 6: nove, 7:+9  ) ", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(garr) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di #arrest (1: <=5, 2: da 5 a 11, 3: da 12 a 16, 4: +16 )", ylab="Gruppi")
+dev.new()
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+dev.new()
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: < 18 anni,2: 18 anni, 3: 19 anni, 4: 20 anni,5: >21 e <23 anni,6: >23 anni)", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(gconv) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di #condanne( 0: Nessuna , 1: una, 2: due, 3: tre, 4:quattro, 5: da 5 a 8, 6: nove, 7:+9  ) ", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(garr) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di #arrest (1: <=5, 2: da 5 a 11, 3: da 12 a 16, 4: +16 )", ylab="Gruppi")
+dev.new()
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est)", ylab="Gruppi")
+# Widen right margin slightly, to fit horizontal labels
+dev.new()
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: < 18 anni,2: 18 anni, 3: 19 anni, 4: 20 anni,5: >21 e <23 anni,6: >23 anni)", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(gconv) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di #condanne( 0: Nessuna , 1: una, 2: due, 3: tre, 4:quattro, 5: da 5 a 8, 6: nove, 7:+9  ) ", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(garr) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di #arrest (1: <=5, 2: da 5 a 11, 3: da 12 a 16, 4: +16 )", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(gconv) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di #condanne( 0: Nessuna , 1: una, 2: due, 3: tre, 4:quattro, 5: da 5 a 8, 6: nove, 7:+9  ) ", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Classi di età (1: < 18 anni,2: 18 anni, 3: 19 anni, 4: 20 anni,5: >21 e <23 anni,6: >23 anni)", ylab="Gruppi")
+dev.new()
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Esplorativo",
+xlab="Luoghi di nascita (1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est)", ylab="Gruppi")
+dev.new()
+# Widen right margin slightly, to fit horizontal labels
+plot(as.factor(bl)~as.factor(Birthplace) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Luogo di nascita",
+xlab="1: Africa dell'ovest, 2: Caraibi,3: UK, 4: Africa dell'est", ylab="Gruppi")
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Classi di età ",
+xlab="1: < 18 anni,2: 18 anni, 3: 19 anni, 4: 20 anni,5: >21 e <23 anni,6: >23 anni", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(gage) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Classi di età ",
+xlab="1: < 18 anni,2: 18 anni, 3: 19 anni, 4: 20 anni,5: >21 e <23 anni,6: >23 anni", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(gconv) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Numero di Condanne",
+xlab=" 0: Nessuna , 1: una, 2: due, 3: tre, 4:quattro, 5: da 5 a 8, 6: nove, 7:+9   ", ylab="Gruppi")
+dev.new()
+plot(as.factor(bl)~as.factor(garr) , data=attr, col=c("#B3E2CD", "#FDCDAC", "#CBD5E8", "light blue"), main="Numero di arresti",
+xlab="1: <=5, 2: da 5 a 11, 3: da 12 a 16, 4: +16 ", ylab="Gruppi")
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+nodematch("Birthplace")*nodecov("Age") + nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+library("ergm", lib.loc="~/R/win-library/3.4")
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+nodematch("Birthplace")*nodecov("Age") + nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+Y = get.adjacency(gang, sparse = F)
+diag(Y) = NA
+net = network(Y , direct = F)
+class(net)
+net
+summary(net)
+mod0 = brg = ergm(net ~ edges, estimate = "MLE")
+summary(brg)
+odds = exp(brg$coef)
+odds
+########
+# --------------------
+# Markov graph model
+# --------------------
+# -------------------------------------
+# adding nodal attributes to the model
+# -------------------------------------
+# add network and edge attributes
+net %v% "Residence" = attr$Residence
+net %v% "Prison" = attr$Prison
+net %v% "Birthplace" = attr$Birthplace
+net %v% "Age" = attr$Age
+net %v% "Arrests" = attr$Arrests
+net %v% "Conviction" = attr$Convictions
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+nodematch("Birthplace")*nodecov("Age") + nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+nodematch("Birthplace")nodecov("Age") + nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+nodematch("Birthplace","Age") + nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+nodematch("Birthplace")%*%nodecov("Age") + nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+(nodematch("Birthplace"))*(nodecov("Age") )+ nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+modcov3 = ergm(
+net ~ edges + gwesp(decay = 0.3, fixed = T) +
+nodematch("Birthplace")+(nodematch("Birthplace")+nodecov("Age") )+ nodecov("Age") +
+nodecov("Arrests") + nodecov("Conviction"),
+control = control.ergm(seed = 1)
+)
+summary(modcov3)
+summary(attr)
+table(attr$Birthplace)
+(2.17^2 * 0.5^2)/0.02^2
+quantile(garr)
+dim(quantile(garr))
+`length(quantile(garr))
+length(quantile(garr))
+quantile(garr)[2]
+# --------
+library(igraph)
+library(readr)
+library(qgraph)
+library(network)
+library(wesanderson)
+library(ergm)
+####FUNZIONE####
+# --------
+get.color = function(net, E, tri) {
+if (E == 1) {
+P = E(net)$weight
+P[is.na(P)] = 5
+R = matrix(wes_palettes$GrandBudapest2,
+ncol = 4,
+nrow = length(E(net)$weight))
+E(net)$color = R[P]
+E(net)$color[is.na(E(net)$weight)] = NA
+return(E(net)$color)
+} else if (E == 2) {
+P = tri + 1
+P[is.na(P)] = 2
+R = matrix(rep(wes_palettes$Zissou1, length(tri)),
+ncol = 5,
+nrow = length(tri))
+V(net)$color = R[P + 3]
+V(net)$color[is.na(tri)] = NA
+return(V(net)$color)
+} else if (E == 3) {
+P = tri + 1
+P[is.na(P)] = 2
+R = matrix(rep(wes_palettes$Darjeeling1, length(tri)),
+ncol = ,
+nrow = length(tri))
+V(net)$color = R[P]
+V(net)$color[is.na(tri)] = NA
+return(V(net)$color)
+}
+}
+setwd("C:\\Users\\chiar\\Desktop\\TESI TROVA NOME\\Codice\\Dati")
+#set data####
+# --------
+Y = as.matrix(read_csv("LONDON_GANG.csv", col_types = cols(X1 = col_skip())))
+Y[Y > 1 & is.na(Y) != 1] = 1
+#generate graph####
+# --------
+gang = graph_from_adjacency_matrix(Y, mode = c("undirected"))
+n = vcount(gang)
+attr = read_csv("LONDON_GANG_ATTR.csv")
+attr = attr[, -c(8, 9)]
+#check####
+# --------
+head(attr)
+#add vertex attributes
+# --------
+V(gang)$Residence = attr$Residence
+V(gang)$Prison = attr$Prison
+V(gang)$Birthplace = attr$Birthplace
+V(gang)$Age = attr$Age
+V(gang)$Arrests = attr$Arrests
+V(gang)$Conviction = attr$Convictions
+# --------
+V(gang)$size <- 5
+V(gang)$frame.color <- wes_palettes$Zissou1[1]
+V(gang)$color <- wes_palettes$Zissou1[2]
+V(gang)$label <- V(gang)$name
+E(gang)$color = wes_palettes$Zissou1[3]
+set.seed(111)
+l1 = layout_as_tree(gang)
+l2 = layout_with_fr(gang)
+plot.igraph(
+gang,
+layout = l1,
+vertex.label.color = "black",
+main = "Network dei membri criminali della gang di londra",
+asp = 0
+)
+dev.new()
+plot.igraph(
+gang,
+layout = l1,
+vertex.label.color = "black",
+main = "Network dei membri criminali della gang di londra",
+asp = 0
+)
+gang.rho = graph.density(gang)
+round(gang.rho, 3)
+####TRANSITIVITA'####
+# --------
+gang.c = transitivity(gang)
+round(gang.c, 3)
+####SUMMARY ATTRIBUTI####
+attach(attr)
+table(attr$Residence)
+table(attr$Prison)
+table(attr$Birthplace)
+summary(attr$Age)
+summary(attr$Arrests)
+summary(attr$Convictions)
+#Matrice di correlazione####
+cor(attr[,-1])
+####CENTRALITA'####
+####DEGREE CENTRALITY####
+#----
+cid.gang = rowSums(Y)
+cid.st.gang = degree(gang, normalized = T)
+####ODDS####
+#transitivity
+#----
+gang.c = transitivity(gang)
+gang.c
+# transitivity -- success and failure probabilities
+#----
+tr.s = c(gang.c)
+tr.f = 1 - c(gang.c)
+# density -- success and failure probabilities
+#----
+de.s = c(gang.rho)
+de.f = 1 - c(gang.rho)
+# compute the log-odds ratio
+#----
+odds.tr = tr.s / tr.f
+odds.de = de.s / de.f
+logodds = log(odds.tr) - log(odds.de)
+logodds
+round(logodds, 3)
+#Grafico l1####
+#----
+dev.new()
+ord = order(cid.st.gang, decreasing = T)
+V(gang)$color = wes_palettes$Zissou1[2]
+V(gang)$color[ord[1:4]] = wes_palettes$Zissou1[5]
+set.seed(111)
+plot(
+gang,
+layout = l1,
+vertex.size = cid.st.gang * 20,
+vertex.label.cex = 1.5,
+overlap = F,
+main = "Degree centrality",
+asp = 0
+)
+plot(
+gang,
+layout = l1,
+vertex.size = cid.st.gang * 20,
+vertex.label.cex = 1.5,
+overlap = F,
+main = "Degree centrality",
+vertex.label.color = "black",
+asp = 0
+)
+plot(
+gang,
+layout = l2,
+vertex.size = cid.st.gang * 20,
+vertex.label.cex = 1.5,
+overlap = F,
+main = "Degree centrality",
+vertex.label.color = "black",
+asp = 0
+)
+cic.st.gang = closeness(gang, normalized = T)
+#Grafico l1####
+#----
+V(gang)$color = wes_palettes$Zissou1[2]
+V(gang)$color[ord[1:4]] = wes_palettes$Zissou1[5]
+ord = order(cic.st.gang, decreasing = T)
+plot(
+gang,
+vertex.label.color = "black",
+layout = l1,
+vertex.size = cic.st.gang * 10,
+edge.arrow.size = 0.5,
+vertex.label.cex = 1.5,
+main = "Closeness centrality",
+asp = 0
+)
+plot(
+gang,
+vertex.label.color = "black",
+layout = l2,
+vertex.size = cic.st.gang * 10,
+edge.arrow.size = 0.5,
+vertex.label.cex = 1.5,
+main = "Closeness centrality",
+asp = 0
+)
+# standardized eigen vector centrality
+#----
+cie.st.gang = eigen_centrality(gang, scale = T)$vector
+#Grafico l1####
+#----
+V(gang)$color = wes_palettes$Zissou1[2]
+V(gang)$color[ord[1:4]] = wes_palettes$Zissou1[5]
+set.seed(111)
+plot(
+vertex.label.color = "black",
+gang,
+vertex.size = cie.st.gang * 10,
+layout = l1,
+edge.arrow.size = 0.5,
+main = "Eingenvector centrality",
+asp = 0
+)
+plot(
+gang,
+vertex.label.color = "black",
+vertex.size = cie.st.gang * 10,
+layout = l2,
+edge.arrow.size = 0.5,
+main = "Eingenvector centrality",
+asp = 0
+)
+V(gang)$color[ord[1:3]] = wes_palettes$Zissou1[5]
+plot(
+vertex.label.color = "black",
+gang,
+vertex.size = cie.st.gang * 10,
+layout = l1,
+edge.arrow.size = 0.5,
+main = "Eingenvector centrality",
+asp = 0
+)
