@@ -1,0 +1,600 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.8)  24 AUG 2018 10:28
+entering extended mode
+**./Report.tex
+(Report.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 76 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+) (Report.aux)
+\openout1 = `Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen127
+\scratchbox=\box30
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen128
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks25
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/chiar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<Immagini/networkviola.jpg, id=7, 953.06062pt x 475.27562pt>
+File: Immagini/networkviola.jpg Graphic file (type jpg)
+<use Immagini/networkviola.jpg>
+Package pdftex.def Info: Immagini/networkviola.jpg  used on input line 24.
+(pdftex.def)             Requested size: 476.52914pt x 237.63722pt.
+
+Overfull \hbox (116.52914pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+<Immagini/networkbinary.jpg, id=8, 934.49126pt x 452.69125pt>
+File: Immagini/networkbinary.jpg Graphic file (type jpg)
+<use Immagini/networkbinary.jpg>
+Package pdftex.def Info: Immagini/networkbinary.jpg  used on input line 26.
+(pdftex.def)             Requested size: 467.24449pt x 226.34506pt.
+
+Overfull \hbox (107.24449pt too wide) in paragraph at lines 26--27
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--29
+
+ []
+
+[1
+
+] [2 <./Immagini/networkviola.jpg> <./Immagini/networkbinary.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--87
+
+ []
+
+
+Overfull \hbox (5.69778pt too wide) in paragraph at lines 79--87
+[] 
+ []
+
+[3]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+
+ []
+
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+[5]
+<Immagini/degree.jpg, id=35, 937.00063pt x 422.57875pt>
+File: Immagini/degree.jpg Graphic file (type jpg)
+<use Immagini/degree.jpg>
+Package pdftex.def Info: Immagini/degree.jpg  used on input line 158.
+(pdftex.def)             Requested size: 468.49916pt x 211.28885pt.
+<Immagini/closeness.jpg, id=36, 943.525pt x 450.18187pt>
+File: Immagini/closeness.jpg Graphic file (type jpg)
+<use Immagini/closeness.jpg>
+Package pdftex.def Info: Immagini/closeness.jpg  used on input line 159.
+(pdftex.def)             Requested size: 471.76134pt x 225.09038pt.
+
+Overfull \hbox (108.49916pt too wide) in paragraph at lines 158--160
+ [][] 
+ []
+
+
+Overfull \hbox (111.76134pt too wide) in paragraph at lines 158--160
+ [] 
+ []
+
+<Immagini/betweeness.jpg, id=37, 930.47626pt x 430.10687pt>
+File: Immagini/betweeness.jpg Graphic file (type jpg)
+<use Immagini/betweeness.jpg>
+Package pdftex.def Info: Immagini/betweeness.jpg  used on input line 165.
+(pdftex.def)             Requested size: 465.23698pt x 215.0529pt.
+<Immagini/ein.jpg, id=38, 932.48375pt x 435.12563pt>
+File: Immagini/ein.jpg Graphic file (type jpg)
+<use Immagini/ein.jpg>
+Package pdftex.def Info: Immagini/ein.jpg  used on input line 166.
+(pdftex.def)             Requested size: 466.24074pt x 217.56227pt.
+
+Overfull \hbox (105.23698pt too wide) in paragraph at lines 165--167
+ [][] 
+ []
+
+
+Overfull \hbox (106.24074pt too wide) in paragraph at lines 165--167
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
+
+ []
+
+[6] [7 <./Immagini/degree.jpg> <./Immagini/closeness.jpg>] [8 <./Immagini/betwe
+eness.jpg> <./Immagini/ein.jpg>]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
+
+ []
+
+[9
+
+]
+Overfull \hbox (1.47945pt too wide) detected at line 214
+\OML/cmm/m/it/10.95 Pr\OT1/cmr/m/n/10.95 ([] = []) = \OML/cmm/m/it/10.95 [] []
+ []
+ []
+
+<Immagini/mod1.jpg, id=52, 396.48125pt x 212.795pt>
+File: Immagini/mod1.jpg Graphic file (type jpg)
+<use Immagini/mod1.jpg>
+Package pdftex.def Info: Immagini/mod1.jpg  used on input line 226.
+(pdftex.def)             Requested size: 297.3602pt x 159.59584pt.
+[10]
+<Immagini/mcmc1.jpg, id=57, 662.97687pt x 339.76938pt>
+File: Immagini/mcmc1.jpg Graphic file (type jpg)
+<use Immagini/mcmc1.jpg>
+Package pdftex.def Info: Immagini/mcmc1.jpg  used on input line 235.
+(pdftex.def)             Requested size: 331.48763pt x 169.88426pt.
+ [11 <./Immagini/mod1.jpg>]
+<Immagini/mod2.jpg, id=61, 450.18187pt x 296.60812pt>
+File: Immagini/mod2.jpg Graphic file (type jpg)
+<use Immagini/mod2.jpg>
+Package pdftex.def Info: Immagini/mod2.jpg  used on input line 247.
+(pdftex.def)             Requested size: 337.63557pt x 222.45554pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--248
+
+ []
+
+<Immagini/mcmc2.jpg, id=62, 656.95438pt x 332.24126pt>
+File: Immagini/mcmc2.jpg Graphic file (type jpg)
+<use Immagini/mcmc2.jpg>
+Package pdftex.def Info: Immagini/mcmc2.jpg  used on input line 253.
+(pdftex.def)             Requested size: 295.62674pt x 149.50717pt.
+<Immagini/mcmc3.jpg, id=63, 659.46375pt x 338.26375pt>
+File: Immagini/mcmc3.jpg Graphic file (type jpg)
+<use Immagini/mcmc3.jpg>
+Package pdftex.def Info: Immagini/mcmc3.jpg  used on input line 254.
+(pdftex.def)             Requested size: 296.75594pt x 152.21727pt.
+<Immagini/mcmc4.jpg, id=64, 648.92438pt x 277.035pt>
+File: Immagini/mcmc4.jpg Graphic file (type jpg)
+<use Immagini/mcmc4.jpg>
+Package pdftex.def Info: Immagini/mcmc4.jpg  used on input line 255.
+(pdftex.def)             Requested size: 292.01328pt x 124.6646pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--257
+
+ []
+
+[12 <./Immagini/mcmc1.jpg> <./Immagini/mod2.jpg>]
+<Immagini/gof.jpg, id=69, 456.70625pt x 236.885pt>
+File: Immagini/gof.jpg Graphic file (type jpg)
+<use Immagini/gof.jpg>
+Package pdftex.def Info: Immagini/gof.jpg  used on input line 261.
+(pdftex.def)             Requested size: 456.70512pt x 236.88441pt.
+
+Overfull \hbox (96.70512pt too wide) in paragraph at lines 261--262
+ [][] 
+ []
+
+[13 <./Immagini/mcmc2.jpg> <./Immagini/mcmc3.jpg> <./Immagini/mcmc4.jpg>]
+[14 <./Immagini/gof.jpg>]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--281
+
+ []
+
+
+Overfull \hbox (65.03084pt too wide) in paragraph at lines 265--281
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--281
+
+ []
+
+<Immagini/Rplot.jpeg, id=76, 959.08313pt x 492.84125pt>
+File: Immagini/Rplot.jpeg Graphic file (type jpg)
+<use Immagini/Rplot.jpeg>
+Package pdftex.def Info: Immagini/Rplot.jpeg  used on input line 307.
+(pdftex.def)             Requested size: 479.54039pt x 246.42001pt.
+
+Overfull \hbox (119.54039pt too wide) in paragraph at lines 307--308
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--309
+
+ []
+
+<Immagini/boxplot.jpeg, id=77, 408.02437pt x 235.63031pt>
+File: Immagini/boxplot.jpeg Graphic file (type jpg)
+<use Immagini/boxplot.jpeg>
+Package pdftex.def Info: Immagini/boxplot.jpeg  used on input line 312.
+(pdftex.def)             Requested size: 306.01753pt x 176.72229pt.
+[15
+
+]
+<Immagini/last.jpg, id=81, 536.50438pt x 316.18124pt>
+File: Immagini/last.jpg Graphic file (type jpg)
+<use Immagini/last.jpg>
+Package pdftex.def Info: Immagini/last.jpg  used on input line 318.
+(pdftex.def)             Requested size: 402.37729pt x 237.13535pt.
+
+Overfull \hbox (42.37729pt too wide) in paragraph at lines 318--319
+ [][] 
+ []
+
+<Immagini/BirthPlace.jpg, id=82, 927.465pt x 470.75874pt>
+File: Immagini/BirthPlace.jpg Graphic file (type jpg)
+<use Immagini/BirthPlace.jpg>
+Package pdftex.def Info: Immagini/BirthPlace.jpg  used on input line 323.
+(pdftex.def)             Requested size: 463.73137pt x 235.3788pt.
+
+Overfull \hbox (103.73137pt too wide) in paragraph at lines 323--324
+ [][] 
+ []
+
+[16 <./Immagini/Rplot.jpeg> <./Immagini/boxplot.jpeg>] [17 <./Immagini/last.jpg
+> <./Immagini/BirthPlace.jpg>]
+<Immagini/modcov.jpg, id=89, 441.14813pt x 327.72438pt>
+File: Immagini/modcov.jpg Graphic file (type jpg)
+<use Immagini/modcov.jpg>
+Package pdftex.def Info: Immagini/modcov.jpg  used on input line 332.
+(pdftex.def)             Requested size: 308.80157pt x 229.40549pt.
+<Immagini/modcov3.jpg, id=90, 480.79625pt x 261.97874pt>
+File: Immagini/modcov3.jpg Graphic file (type jpg)
+<use Immagini/modcov3.jpg>
+Package pdftex.def Info: Immagini/modcov3.jpg  used on input line 338.
+(pdftex.def)             Requested size: 336.55507pt x 183.38387pt.
+ [18
+
+ <./Immagini/modcov.jpg>]
+<Immagini/modcov4.jpg, id=95, 434.12187pt x 245.41687pt>
+File: Immagini/modcov4.jpg Graphic file (type jpg)
+<use Immagini/modcov4.jpg>
+Package pdftex.def Info: Immagini/modcov4.jpg  used on input line 344.
+(pdftex.def)             Requested size: 303.88322pt x 171.79062pt.
+<Immagini/mod5.jpg, id=96, 456.70625pt x 281.05pt>
+File: Immagini/mod5.jpg Graphic file (type jpg)
+<use Immagini/mod5.jpg>
+Package pdftex.def Info: Immagini/mod5.jpg  used on input line 350.
+(pdftex.def)             Requested size: 319.69218pt x 196.73364pt.
+ [19 <./Immagini/modcov4.jpg> <./Immagini/modcov3.jpg>] [20 <./Immagini/mod5.jp
+g>] [21
+
+] (Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 2746 strings out of 493308
+ 37010 string characters out of 3138769
+ 96197 words of memory out of 3000000
+ 6223 multiletter control sequences out of 15000+200000
+ 13531 words of font info for 50 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,25p,642b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Report.pdf (22 pages, 2534403 bytes).
+PDF statistics:
+ 150 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
